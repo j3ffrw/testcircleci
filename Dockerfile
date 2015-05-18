@@ -1,8 +1,5 @@
 FROM java:7-jre
 
-RUN yum -y install wget tar apache-tomcat
-
-
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 RUN mkdir -p "$CATALINA_HOME"
