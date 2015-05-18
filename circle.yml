@@ -1,3 +1,7 @@
 checkout:
   post:
     - mvn dependency:copy-dependencies -DoutputDirectory=./ -gs settings.xml
+
+machine:
+  services:
+    - docker
