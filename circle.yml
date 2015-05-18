@@ -1,2 +1,3 @@
-general:
-  build_dir: api-places-docker
+checkout:
+  post:
+    - mvn dependency:copy-dependencies -DoutputDirectory=./ -gs settings.xml

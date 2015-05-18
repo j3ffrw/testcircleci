@@ -53,14 +53,5 @@
 	<url>s3://insidious-maven-repo/snapshot</url>
     </repository>
   </repositories>
-<!--settings>
-    <servers>
-        <server>
-            <id>insidious.places.repository</id>
-            <username>AKIAISSZUG4ICHIBE5MQ</username>
-            <password>ozDjlsRiAK3bgGTBc/mGGMWxrwSviEY9QS7Diuwl</password>
-        </server>
-    </servers>
-</settings-->
-</project>
 
+</project>
