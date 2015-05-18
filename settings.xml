@@ -3,8 +3,8 @@
         <server>
             <!-- you can actually put the key and secret in here, I like to get them from the env -->
             <id>insidious.places.repository</id>
-            <username>AKIAISSZUG4ICHIBE5MQ</username>
-            <password>ozDjlsRiAK3bgGTBc/mGGMWxrwSviEY9QS7Diuwl</password>
+            <username>${env.username}</username>
+            <password>${env.password}</password>
         </server>
     </servers>
 </settings>
