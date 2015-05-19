@@ -34,7 +34,7 @@ RUN set -x \
 	&& rm tomcat.tar.gz*
 
 
-ADD insidious-api-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/appname.war
+ADD insidious-api-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/insidious-api.war
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
